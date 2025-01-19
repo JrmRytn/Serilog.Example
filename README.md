@@ -1,0 +1,1 @@
+This is my sample usage of serilog structure logging
