@@ -20,8 +20,7 @@ builder.Services.AddApplicationServices();
 
 // Serilog Configuration
 builder.Host.UseSerilog((context, configuration) =>
-    configuration.ReadFrom.Configuration(context.Configuration)
-    .Destructure.UsingAttributes()   
+    configuration.ReadFrom.Configuration(context.Configuration) 
     );
 
 
